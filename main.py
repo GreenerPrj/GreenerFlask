@@ -13,7 +13,7 @@ trainer.train('chatterbot.corpus.english')
 def Home():
     return str('Welcom Home')
 
-
+#123
 @app.route('/user',methods=['POST']) # 접속하는 url
 def user():
     jsony = request.json
