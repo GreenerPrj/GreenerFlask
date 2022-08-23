@@ -12,7 +12,7 @@ trainer.train('chatterbot.corpus.english')
 @cross_origin()
 def Home():
     return str('Welcom Home')
-
+#123123
 
 @app.route('/user',methods=['POST']) # 접속하는 url
 def user():
